@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Piano Academy — Legal & Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0c0c14;
+      --card: rgba(255,255,255,0.06);
+      --text: #f5f5f7;
+      --muted: rgba(255,255,255,0.55);
+      --accent: #9461fa;
+      --border: rgba(255,255,255,0.1);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #241c3f 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 24px 16px 48px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; font-weight: 800; margin: 0 0 8px; }
+    .subtitle { color: var(--muted); margin-bottom: 32px; }
+    nav { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card);
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 1.25rem; margin: 0 0 12px; }
+    h3 { font-size: 1rem; margin: 20px 0 8px; color: var(--accent); }
+    p, li { color: var(--muted); }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--accent); }
+    .lang-toggle { margin-bottom: 16px; font-size: 0.9rem; }
+    .updated { font-size: 0.85rem; color: var(--muted); margin-top: 24px; }
+    [data-lang] { display: none; }
+    [data-lang].active { display: block; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Piano Academy</h1>
+    <p class="subtitle">Privacy Policy & Support / Gizlilik ve Destek</p>
+
+    <nav>
+      <a href="#privacy">Privacy / Gizlilik</a>
+      <a href="#support">Support / Destek</a>
+      <a href="https://github.com/onursabitsalman">GitHub</a>
+    </nav>
+
+    <p class="lang-toggle">
+      <a href="#" onclick="setLang('en'); return false;">English</a> ·
+      <a href="#" onclick="setLang('tr'); return false;">Türkçe</a>
+    </p>
+
+    <div id="privacy">
+      <section data-lang="en" class="active">
+        <h2 id="privacy">Privacy Policy</h2>
+        <p><strong>Last updated:</strong> May 28, 2026</p>
+        <p>Piano Academy (“the App”) is developed by Onur Sabit Salman. This policy explains how we handle information when you use the App.</p>
+        <h3>Data we collect</h3>
+        <p>We do <strong>not</strong> collect personal information on our servers. The App does not require an account.</p>
+        <ul>
+          <li><strong>Progress data</strong> (levels completed, scores) is stored locally on your device using Apple’s SwiftData framework.</li>
+          <li><strong>Language preference</strong> is stored locally on your device.</li>
+        </ul>
+        <h3>Data we do not collect</h3>
+        <ul>
+          <li>No microphone or camera access</li>
+          <li>No location tracking</li>
+          <li>No advertising identifiers</li>
+          <li>No third-party analytics or advertising SDKs</li>
+        </ul>
+        <h3>Audio</h3>
+        <p>The App plays piano sounds on your device. Audio uses the system audio session in playback mode only.</p>
+        <h3>Children</h3>
+        <p>The App is suitable for general audiences. We do not knowingly collect personal data from children.</p>
+        <h3>Changes</h3>
+        <p>We may update this policy. The latest version will always be available on this page.</p>
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:onursabitsalman@gmail.com">onursabitsalman@gmail.com</a></p>
+        <p>See also the <a href="#support">Support</a> section below.</p>
+      </section>
+
+      <section data-lang="tr">
+        <h2>Gizlilik Politikası</h2>
+        <p><strong>Son güncelleme:</strong> 28 Mayıs 2026</p>
+        <p>Piano Academy (“Uygulama”), Onur Sabit Salman tarafından geliştirilmiştir. Bu metin, Uygulamayı kullanırken bilgilerin nasıl işlendiğini açıklar.</p>
+        <h3>Topladığımız veriler</h3>
+        <p>Sunucularımızda <strong>kişisel veri toplamıyoruz</strong>. Uygulama hesap oluşturmayı gerektirmez.</p>
+        <ul>
+          <li><strong>İlerleme verileri</strong> (bölüm, skor) yalnızca cihazınızda, Apple SwiftData ile saklanır.</li>
+          <li><strong>Dil tercihi</strong> yalnızca cihazınızda saklanır.</li>
+        </ul>
+        <h3>Toplamadığımız veriler</h3>
+        <ul>
+          <li>Mikrofon veya kamera erişimi yok</li>
+          <li>Konum takibi yok</li>
+          <li>Reklam kimlikleri yok</li>
+          <li>Üçüncü taraf analitik veya reklam SDK’sı yok</li>
+        </ul>
+        <h3>Ses</h3>
+        <p>Uygulama cihazınızda piyano sesleri çalar. Ses yalnızca oynatma (playback) modunda kullanılır.</p>
+        <h3>Çocuklar</h3>
+        <p>Uygulama genel kitleye uygundur. Bilerek çocuklardan kişisel veri toplamıyoruz.</p>
+        <h3>Değişiklikler</h3>
+        <p>Bu politikayı güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yer alır.</p>
+        <h3>İletişim</h3>
+        <p>E-posta: <a href="mailto:onursabitsalman@gmail.com">onursabitsalman@gmail.com</a></p>
+        <p>Ayrıca aşağıdaki <a href="#support">Destek</a> bölümüne bakabilirsiniz.</p>
+      </section>
+    </div>
+
+    <div id="support">
+      <section data-lang="en" class="active">
+        <h2 id="support">Support</h2>
+        <p>Need help with Piano Academy? We are happy to assist.</p>
+        <h3>Contact</h3>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:onursabitsalman@gmail.com">onursabitsalman@gmail.com</a></li>
+          <li><strong>GitHub Issues:</strong> <a href="https://github.com/onursabitsalman/pianoacademy/issues">github.com/onursabitsalman/pianoacademy/issues</a></li>
+          <li><strong>Developer:</strong> <a href="https://github.com/onursabitsalman">@onursabitsalman</a></li>
+        </ul>
+        <h3>Common questions</h3>
+        <ul>
+          <li><strong>No sound?</strong> Check device volume and silent mode. Restart the App.</li>
+          <li><strong>Pitch mode is sideways?</strong> Rotate your device to landscape for gameplay.</li>
+          <li><strong>Progress lost?</strong> Progress is stored on this device only. Deleting the App removes local data.</li>
+        </ul>
+      </section>
+
+      <section data-lang="tr">
+        <h2>Destek</h2>
+        <p>Piano Academy ile ilgili yardıma mı ihtiyacınız var? Size yardımcı olmaktan memnuniyet duyarız.</p>
+        <h3>İletişim</h3>
+        <ul>
+          <li><strong>E-posta:</strong> <a href="mailto:onursabitsalman@gmail.com">onursabitsalman@gmail.com</a></li>
+          <li><strong>GitHub Issues:</strong> <a href="https://github.com/onursabitsalman/pianoacademy/issues">github.com/onursabitsalman/pianoacademy/issues</a></li>
+          <li><strong>Geliştirici:</strong> <a href="https://github.com/onursabitsalman">@onursabitsalman</a></li>
+        </ul>
+        <h3>Sık sorulanlar</h3>
+        <ul>
+          <li><strong>Ses yok mu?</strong> Cihaz sesini ve sessiz modu kontrol edin. Uygulamayı yeniden başlatın.</li>
+          <li><strong>Pitch modu yatay mı?</strong> Oyun için cihazı yatay çevirin.</li>
+          <li><strong>İlerleme gitti mi?</strong> İlerleme yalnızca bu cihazda saklanır. Uygulamayı silmek veriyi siler.</li>
+        </ul>
+      </section>
+    </div>
+
+    <p class="updated">© 2026 Onur Sabit Salman · Piano Academy</p>
+  </div>
+  <script>
+    function setLang(code) {
+      document.querySelectorAll('[data-lang]').forEach(function (el) {
+        el.classList.toggle('active', el.getAttribute('data-lang') === code);
+      });
+      try { localStorage.setItem('pa-lang', code); } catch (e) {}
+    }
+    try {
+      var saved = localStorage.getItem('pa-lang');
+      if (saved === 'tr' || saved === 'en') setLang(saved);
+    } catch (e) {}
+  </script>
+</body>
+</html>
